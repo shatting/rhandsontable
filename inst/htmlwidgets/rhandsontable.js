@@ -80,7 +80,7 @@ HTMLWidgets.widget({
   },
 
   resize: function(el, width, height, instance) {
-
+    instance.hot.render();
   },
 
   afterRender: function(x) {
